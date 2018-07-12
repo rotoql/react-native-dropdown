@@ -3,26 +3,20 @@
   "version": "0.0.6",
   "description": "A better Select dropdown menu for react-native",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:alinz/react-native-dropdown.git"
-  },
-  "keywords": [
-    "react-component",
-    "react-native"
-  ],
-  "author": {
-    "name": "Ali Najafizadeh",
-    "email": "a.najafizadeh@gmail.com",
-    "url": "http://github.com/alinz"
-  },
-  "contributors" : ["Azhar khan <azhar.mw@gmail.com>"],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alinz/react-native-dropdown"
-  },
-  "homepage": "https://github.com/alinz/react-native-dropdown"
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.2.5",
+    "babel-jest": "23.2.0",
+    "babel-plugin-graphql-tag": "1.6.0",
+    "babel-plugin-transform-remove-console": "6.9.4",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "4.19.1",
+    "eslint-plugin-prettier": "2.6.1",
+    "eslint-plugin-react": "7.10.0",
+    "jest": "23.2.0",
+    "prettier": "1.13.6",
+    "prettier-eslint": "8.8.2",
+    "react-native-kill-packager": "1.0.0",
+    "react-test-renderer": "16.4.1"
+  }
 }
